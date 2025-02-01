@@ -11,6 +11,8 @@ public class Abhis {
 
         Abhis ab = new Abhis();
         ab.abHI();
+        ab.abhisss();
+        System.out.println("\t");
 
         int b[][] = { { 1, 2, 3, 4 }, { 5, 6, 7 }, { 8, 9 }, { 10 } };
 
@@ -33,6 +35,15 @@ public class Abhis {
             }
         }
         System.out.println("\t");
+    }
+
+    public void abhisss(){
+        int arr[] = {11,33,55,77,87,98,110};
+        for(int i=0; i<arr.length;i++){
+            if(arr[i]%5==0 && arr[i]%11==0){
+                System.out.println(arr[i]);
+            }
+        }
     }
 
 }
