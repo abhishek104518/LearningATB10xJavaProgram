@@ -58,5 +58,15 @@ public class stringFunctions {
         String str25 = "Hello, World!";
         System.out.println("Ends with '!': " + str25.endsWith("!"));
         System.out.println("Ends with 'World': " + str25.endsWith("World"));
+
+        StringBuilder sb = new StringBuilder("Hello");
+        sb.append(" World!");
+        sb.insert(5, " Java");
+        System.out.println("StringBuilder result: " + sb.toString());
+
+        StringBuffer sbf = new StringBuffer("Hello");
+        sbf.append(" World!");
+        sbf.insert(5, " Java");
+        System.out.println("StringBuffer result: " + sbf.toString());
     }
 }
