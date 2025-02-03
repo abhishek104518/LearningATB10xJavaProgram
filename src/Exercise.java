@@ -19,7 +19,7 @@ public class Exercise {
         }
         System.out.println(a.size());
 
-        // Step 5: Iterate through the ArrayList and print index and value
+        // Iterate through the ArrayList and print index and value
         System.out.println("ArrayList contents with index:");
         for (int i = 0; i < a.size(); i++) {
             System.out.println("Index: " + i + " | Value: " + a.get(i));
