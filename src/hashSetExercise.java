@@ -20,6 +20,10 @@ public class hashSetExercise {
         while (i.hasNext()) {
             System.out.println(i.next());
         }
+
+        for(int j =0; j<hs.size(); j++){
+            System.out.println(i.next());
+        }
     }
 
 }
