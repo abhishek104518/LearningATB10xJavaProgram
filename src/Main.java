@@ -3,6 +3,7 @@ public class Main{
 
         Main m = new Main();
         m.reverseString();
+        m.revString();
 
         int[] arr = {4,9,23,12,57};
         int sum = 0;
@@ -22,5 +23,19 @@ public class Main{
             }
         }
         System.out.println(answer);
+    }
+
+    public static void revString() {
+        String input = "Mogamboo Khush Hua";
+        String[] arr = input.split(" "); // Split input into words
+
+        for (int i = 0; i < arr.length; i++) {
+            // Reverse each word
+            arr[i] = new StringBuilder(arr[i]).reverse().toString();
+        }
+
+        // Join the reversed words with spaces
+        String result = String.join(" ", arr);
+        System.out.println(result);
     }
 }
