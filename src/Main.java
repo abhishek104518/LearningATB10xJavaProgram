@@ -4,6 +4,9 @@ public class Main{
         Main m = new Main();
         m.reverseString();
         m.revString();
+        m.revString2();
+        System.out.println("\t");
+        m.stringBuilderMethod();
 
         int[] arr = {4,9,23,12,57};
         int sum = 0;
@@ -37,5 +40,21 @@ public class Main{
         // Join the reversed words with spaces
         String result = String.join(" ", arr);
         System.out.println(result);
+    }
+
+    public void revString2(){
+        String abhi = "Abhishek";
+        String[] arr = {"A","b","h","i","s","h","e","k"};
+        for(int i=arr.length-1; i>=0; i--){
+            System.out.print(arr[i]);
+        }
+    }
+
+    public void stringBuilderMethod(){
+        StringBuilder sb = new StringBuilder("Mogamboo Khush ");
+        sb.append("Hua");
+        System.out.println(sb);
+        sb.reverse();
+        System.out.println(sb);
     }
 }
