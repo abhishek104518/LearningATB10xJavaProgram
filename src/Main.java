@@ -8,7 +8,7 @@ public class Main{
         System.out.println("\t");
         m.stringBuilderMethod();
 
-        int[] arr = {4,9,23,12,57};
+        int[] arr = {12,34,10,34,55,89};
         int sum = 0;
         for(int i : arr)
             sum += i;
