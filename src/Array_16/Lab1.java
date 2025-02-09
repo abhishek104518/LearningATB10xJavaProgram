@@ -10,6 +10,7 @@ public class Lab1 {
         System.out.println("\t");
 
         int[] marks = {51, 100, 91, 87, 90};
+        //values ascending order madhe bhetnar
         Arrays.sort(marks);
         for(int i=0; i<marks.length; i++){
             System.out.println(marks[i]);
@@ -17,7 +18,9 @@ public class Lab1 {
     }
 
     public void getReverseMarks(){
+        //values descending order madhe bhetnar
         int[] marks = {51, 100, 91, 87, 90};
+        Arrays.sort(marks);
         for(int i= marks.length-1; i>=0; i--){
             System.out.println(marks[i]);
         }
