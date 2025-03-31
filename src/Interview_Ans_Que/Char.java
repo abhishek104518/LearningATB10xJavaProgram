@@ -24,6 +24,7 @@ public class Char {
         System.out.println("Character Occurrences:");
         for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
+
         }
     }
 }
