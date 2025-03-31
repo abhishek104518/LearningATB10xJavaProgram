@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class StringOccurrence {
 
     public static void stringOccurence(String input){
+
         Map<Character, Integer> charCountMap = new HashMap<>();
 
         for (char ch : input.toCharArray()) {
